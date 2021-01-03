@@ -6,7 +6,7 @@ h1{
     font-size: 50px;
 
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -43,4 +43,36 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 400px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, cyan);
+    border-image-slice: 1;
+
+    
+
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(150deg, rgb(21, 255, 0), red);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    background-color: orange;
+    padding: 3px;
 }
